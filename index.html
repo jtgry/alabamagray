@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+      <section class="feature expanded row collapse hidden">
+        <div class="large-5 columns sticky_column">
+          <div class="header" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url({{ post.image_path }});">
+          </div>
+        </div>
+        <div class="large-7 columns">
+          <div class="feature-text text-center vertical">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2 class="feature-title">{{ post.title }}</h2>
+            <hr class="feature-hr"/>
+            {{ post.content }}
+        </div>
+      </section>
+{% endfor %}
