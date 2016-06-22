@@ -67,10 +67,11 @@ h1, h2, h3, h4, h5, h6{
   letter-spacing: 2rem;
   color: $white;
   @include breakpoint(medium down) {
-    font-size: 80%;
+    font-size: 4rem;
+    letter-spacing: 1rem;
   }
   @include breakpoint(small down) {
-    font-size: 50%;
+    font-size: 3rem;
   }
 }
 .header-sub-title{
@@ -80,10 +81,11 @@ h1, h2, h3, h4, h5, h6{
   padding-left: 4.5rem;
   color: $medium-gray;
   @include breakpoint(medium down) {
-    font-size: 80%;
+    font-size: 4rem;
+    letter-spacing: 3rem;
   }
   @include breakpoint(small down) {
-    font-size: 50%;
+    font-size: 3rem;
   }
 }
 .header-text{
