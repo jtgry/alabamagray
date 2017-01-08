@@ -1,1 +1,0 @@
-{"version":3,"sources":["../app.js"],"names":["$","document","foundation","ready","viewportChecker","classToAdd","classToRemove","removeClassAfterAnimation","offset"],"mappings":"AAAAA,EAAEC,UAAUC,aACZF,EAAEC,UAAUE,MAAM,WAEhBH,EAAE,YAAYI,iBACZC,WAAY,qDACZC,cAAe,SACfC,2BAA2B,EAC3BC,OAAQ","file":"app-min.js"}

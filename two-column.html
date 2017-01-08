@@ -1,0 +1,28 @@
+---
+layout: two-column
+---
+<article class="body">
+  <section class="block-featured-posts">
+    {% for post in site.posts %}
+        {% if post.featured == "true" %}
+        <div class="block-featured-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ post.image_path }});">
+          <div class="vertical">
+            <h2 class="block-featured-post-title">{{ post.title }}</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="block-featured-post-content">{{ post.content }}</div>
+        </div>
+        {% else %}
+        <div class="block-featured-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ post.image_path }});">
+          <div class="vertical">
+            <h2 class="block-featured-post-title">{{ post.title }}</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="block-featured-post-content">{{ post.content }}</div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </section>
+</article>
