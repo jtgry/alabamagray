@@ -22,7 +22,7 @@ version: 3.1.6
 markdown: kramdown
 
 collections:
-  pages:
+  html_pages:
     output: true
   posts:
     permalink: journal/:path/
