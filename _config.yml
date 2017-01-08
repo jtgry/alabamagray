@@ -22,13 +22,10 @@ version: 3.1.6
 markdown: kramdown
 
 collections:
-  home:
   pages:
     output: true
   posts:
     permalink: journal/:path/
-  projects:
-    permalink: project/:path/
 
 sass:
     load_paths:
