@@ -32,6 +32,6 @@ sass:
         - _sass
         - _sass/animate
         - _sass/jeet
-
+        
 gems:
   - jekyll-sitemap
