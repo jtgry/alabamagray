@@ -66,7 +66,7 @@ h6{
 }
 p {
   font-family: $base-font-family;
-  font-size: 140%;
+  font-size: 120%;
   color: $color-black;
   letter-spacing: -.01em;
 }
@@ -205,13 +205,13 @@ pre {
  * Wrapper
  */
 .container {
-    width: 90%;
-    padding: 0 5%;
+    width: 96%;
+    padding: 0 2%;
     margin: 0 auto;
     max-width: $content-width;
     @media (max-width: $phone) {
-      width: 92%;
-      padding: 0 4%;
+      width: 94%;
+      padding: 0 2%;
       margin: 0 auto;
     }
 }

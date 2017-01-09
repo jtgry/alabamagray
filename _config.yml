@@ -20,7 +20,7 @@ github_username:  jekyll
 # Build settings
 version: 3.1.6
 markdown: kramdown
-
+paginate: 3
 collections:
   html_pages:
     output: true
@@ -32,6 +32,6 @@ sass:
         - _sass
         - _sass/animate
         - _sass/jeet
-        
+
 gems:
   - jekyll-sitemap

@@ -2,27 +2,46 @@
 layout: two-column
 ---
 <article class="body">
-  <section class="block-featured-posts">
+  <section class="blog-posts">
     {% for post in site.posts %}
         {% if post.featured == "true" %}
-        <div class="block-featured-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ post.image_path }});">
-          <div class="vertical">
-            <h2 class="block-featured-post-title">{{ post.title }}</h2>
+        <div class="blog-post">
+          <div class="blog-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ post.image_path }});">
+            <div class="vertical">
+              <h2 class="blog-post-title">{{ post.title }}</h2>
+            </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="block-featured-post-content">{{ post.content }}</div>
+          <div class="container">
+            <div class="blog-post-content">{{ post.content }}</div>
+          </div>
         </div>
         {% else %}
-        <div class="block-featured-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ post.image_path }});">
-          <div class="vertical">
-            <h2 class="block-featured-post-title">{{ post.title }}</h2>
+        <div class="blog-post">
+          <div class="blog-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ post.image_path }});">
+            <div class="vertical">
+              <h2 class="blog-post-title">{{ post.title }}</h2>
+            </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="block-featured-post-content">{{ post.content }}</div>
+          <div class="container">
+            <div class="blog-post-content">{{ post.content }}</div>
+          </div>
         </div>
         {% endif %}
       {% endfor %}
     </section>
 </article>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
