@@ -229,3 +229,9 @@ pre {
         clear: both;
     }
 }
+.fade-in{
+  display: block;
+  @include fadeIn(
+    $delay: .1s
+  );
+}

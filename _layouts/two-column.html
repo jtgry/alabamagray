@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-<div>
-  <section class="side-banner" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/1.jpg);">
-    <a href="{{ site.url }}"><img class="nav-logo" src="/images/logo.svg" alt="{{ site.title }}"/></a>
-  </section>
-  <section class="main-section pull-right">
-    <h1 class="site-title">{{ site.title }}</h1>
-    <div class="post">
-      {{ content }}
-    </div>
-  </section>
-</div>
+<section class="side-banner" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/1.jpg);">
+  <a href="{{ site.url }}"><img class="nav-logo" src="/images/logo.svg" alt="{{ site.title }}"/></a>
+</section>
+<section class="main-section pull-right">
+  <h1 class="site-title">{{ site.title }}</h1>
+  {{ content }}
+</section>
