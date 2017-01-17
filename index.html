@@ -6,7 +6,7 @@ layout: two-column
     {% for post in site.posts %}
         {% if post.featured == "true" %}
         <div class="blog-post">
-          <div class="blog-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ post.image_path }});">
+          <div class="blog-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url({{ post.image_path }});">
             <div class="vertical">
               <h2 class="blog-post-title">{{ post.title }}</h2>
             </div>
@@ -17,7 +17,7 @@ layout: two-column
         </div>
         {% else %}
         <div class="blog-post">
-          <div class="blog-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{ post.image_path }});">
+          <div class="blog-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url({{ post.image_path }});">
             <div class="vertical">
               <h2 class="blog-post-title">{{ post.title }}</h2>
             </div>

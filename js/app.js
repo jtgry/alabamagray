@@ -8,6 +8,13 @@ $(document).ready(function () {
     $(".mobile-nav").fadeToggle(500);
     $(".nav").toggleClass("nav-transparent");
   });
+  $('.blog-post').addClass('hidden')viewportChecker({
+    classToAdd: 'fade-in-slow',
+    classToRemove: 'hidden',
+    removeClassAfterAnimation: true,
+    offset: -100
+
+  });
   $(window).on('scroll',function() {
       if ($(this).scrollTop() > 400) {
         $(".nav").removeClass("fade-in-slow");
