@@ -26,14 +26,21 @@
   );
 }
 
-.blog-post-title{
+h2.blog-post-title{
   text-align: center;
   color: $color-white;
   font-size: 4rem;
   text-transform: uppercase;
+  margin: 0;
   @include fadeIn(
     $delay: 1.2s
   );
+}
+
+.blog-post-meta{
+  color: $color-white;
+  font-family: $header-font-family;
+  font-weight: bold;
 }
 
 .block{

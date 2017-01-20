@@ -19,11 +19,26 @@
   @media (max-width: $tablet) {
     @include stack();
     position: relative;
+    min-height: 30vh;
+    max-height: 30vh;
+    height: 30vh;
+  }
+}
+.site-title{
+  height: 10em;
+  padding-top: $spacing-unit / 2;
+  padding-bottom: $spacing-unit / 2;
+  @media (max-width: $tablet) {
+    @include stack();
+    height: 8em;
   }
 }
 .site-description{
   color: $color-white;
-  margin: $spacing-unit / 2 auto;
+  @media (max-width: $tablet) {
+    @include stack();
+    font-size: 1.2rem;
+  }
 }
 .main-section{
   @include fadeIn(
@@ -34,12 +49,6 @@
     @include stack();
     float: left;
   }
-}
-.site-title{
-  text-align: center;
-  font-size: 4rem;
-  letter-spacing: .3em;
-  margin-bottom: 0;
 }
 .header{
   display: table;
