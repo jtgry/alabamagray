@@ -11,6 +11,40 @@
 .text-center{
   text-align: center;
 }
+.image-left{
+  float: left;
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  padding: 0;
+  padding-right: $spacing-unit / 4;
+}
+.image-right{
+  float: right;
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  padding: 0;
+  padding-left: $spacing-unit / 4;
+}
 .hidden{
   display: none;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }

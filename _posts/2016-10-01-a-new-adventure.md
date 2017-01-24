@@ -12,4 +12,4 @@ This is a new adventure
 
 &nbsp;
 
-![](/uploads/versions/1---x----2000-1333x---.jpg)
+![](/images/1.jpg){: .image-left}

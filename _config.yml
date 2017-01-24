@@ -18,6 +18,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 paginate: 3
 paginate_path: posts/page:num
+uploads_dir: "images"
 
 # Build settings
 version: 3.1.6

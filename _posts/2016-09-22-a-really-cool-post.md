@@ -5,7 +5,10 @@ date:   2016-09-22 21:39:18
 image_path: "/images/1.jpg"
 featured: "true"
 ---
+![](/images/1.jpg){: .image-left}
+
 I want to talk about something that has been on my mind for several days. I don't really know why this has stuck with me, but I feel the urge to write about it. It all started with a tumbler. (Isn't it funny how God uses some of the smallest things in our life to speak to us?) I bought the tumbler on clearance at Lifeway Christian Stores, and I honestly bought it only because it was cheap, and I thought it was cute. However, after I bought it, the simple message on the side just began to stick with me.
+{: .cf}
 
 "You are loved"
 
