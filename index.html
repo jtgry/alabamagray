@@ -9,12 +9,11 @@ layout: two-column
           <div class="blog-post-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url({{ post.image_path }});">
             <div class="vertical">
               <h2 class="blog-post-title">{{ post.title }}</h2>
-              <p>by {{post.author }} </p>
               <p class="blog-post-meta">by {{post.author }} </p>
             </div>
           </div>
-          <div class="">
-            <div class="blog-post-content">{{ post.content }}</div>
+          <div class="cf">
+            <div class="blog-post-content page-content container">{{ post.content }}</div>
           </div>
         </div>
         {% else %}
@@ -26,7 +25,7 @@ layout: two-column
             </div>
           </div>
           <div class="cf">
-            <div class="blog-post-content">{{ post.content }}</div>
+            <div class="blog-post-content page-content container">{{ post.content }}</div>
           </div>
         </div>
         {% endif %}

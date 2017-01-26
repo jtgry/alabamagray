@@ -1,13 +1,11 @@
 .blog-posts{
-  padding: $spacing-unit / 2;
-  text-align: center;
 }
 .blog-post-image{
   display: table;
   width: 100%;
-  min-height: 60vh;
-  max-height: 60vh;
-  height: 60vh;
+  min-height: 80vh;
+  max-height: 80vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;

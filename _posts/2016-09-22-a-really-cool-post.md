@@ -5,10 +5,8 @@ date:   2016-09-22 21:39:18
 image_path: "/images/1.jpg"
 featured: "true"
 ---
-![](/images/1.jpg){: .image-left}
-
 I want to talk about something that has been on my mind for several days. I don't really know why this has stuck with me, but I feel the urge to write about it. It all started with a tumbler. (Isn't it funny how God uses some of the smallest things in our life to speak to us?) I bought the tumbler on clearance at Lifeway Christian Stores, and I honestly bought it only because it was cheap, and I thought it was cute. However, after I bought it, the simple message on the side just began to stick with me.
-{: .cf}
+
 
 "You are loved"
 
@@ -16,7 +14,10 @@ It is so simple, but it really began to make me think... That simple message is 
 
 Let me explain...
 
+![](/images/1.jpg){: .image-left}
+
 We are all different. Whether it is our skin color, where we live, the language we speak, our likes, our dislikes, our beliefs, our hair color, our age, and whatever else we can think of that makes us individuals. Yet, that one simple statement that can be said of everyone.
+{: .cf}
 
 Our traits are what distinguishes us and sets us apart from one another. I want you to think about yourself for a moment. Think about the things that make you... you. Are you tall, short, young, old, outgoing, introverted, happy, unhappy... etc. Now I want you to put all of those aside and simply make this statement.
 

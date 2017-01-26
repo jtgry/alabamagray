@@ -14,7 +14,7 @@
 }
 
 // Our variables
-$base-font-family: "Crimson Text", serif;
+$base-font-family: "Playfair Display", serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -26,10 +26,10 @@ $header-font-family: "Naive", serif;
 
 $spacing-unit:     4rem;
 
-$color-black:      rgba(30,30,30,0.9);
-$color-white:      rgba(255,255,255,0.95);
+$color-black:      rgba(50,50,50,1);
+$color-white:      rgba(250,250,250,1);
 $color-off-white:  rgba(252,252,252,0.9);
-$color-brand:      rgba(30,30,30,0.9);
+$color-brand:      rgba(0,0,0,0.9);
 $color-transparent:rgba(0,0,0,0);
 $color-grey:       rgba(200,200,200,0.9);
 $color-grey-light: lighten($color-grey, 10%);
